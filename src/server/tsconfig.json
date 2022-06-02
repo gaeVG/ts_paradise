@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": ["types/*"]
+    },
+    "outDir": "./",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "module": "es6",
+    "target": "es6",
+    "allowJs": true,
+    "lib": ["esnext"],
+    "types": ["@citizenfx/server", "@nativewrappers/client", "@types/node"],
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+  },
+  "include": ["./**/*", "../config/**/*", "../core/**/*"],
+  "exclude": ["**/node_modules", "**/__tests__/*"]
+}

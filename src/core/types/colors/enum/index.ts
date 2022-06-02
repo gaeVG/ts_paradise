@@ -1,0 +1,1 @@
+export { ColorConsoleEnum } from './console';

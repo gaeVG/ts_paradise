@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": ["types/*"],
+      "@libs/*": ["../core/libs/*"],
+    },
+    "outDir": "./",
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "target": "es6",
+    "allowJs": true,
+    "lib": ["es2017"],
+    "types": ["@citizenfx/client", "@nativewrappers/client", "@types/node"],
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "include": ["./**/*", "../core/**/*"],
+  "exclude": ["**/node_modules", "**/__tests__/*"]
+}
