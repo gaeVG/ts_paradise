@@ -1,1 +1,0 @@
-export { ISpawn } from './spawn';

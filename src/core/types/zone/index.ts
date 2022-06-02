@@ -1,1 +1,0 @@
-export { IZone } from './interface';
